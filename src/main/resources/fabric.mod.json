@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "ghiblimc",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Ghibli MC",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Prometheus Modding"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.prometheusmodding.ghiblimcmod.GhibliMCMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "ghiblimc.mixins.json"
   ],
 
   "depends": {
